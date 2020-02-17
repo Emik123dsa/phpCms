@@ -1,0 +1,8 @@
+{
+    "name": "Default", 
+    "theme": "default",
+    "description": "Default description", 
+    "version": "0.0.1 V", 
+    "release": "13 February 2020", 
+    "img": "/dynweb/cms/admin/Assets/img/image.png"
+}   
