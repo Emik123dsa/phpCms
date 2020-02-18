@@ -17,7 +17,7 @@ class Provider extends AbstractProvider {
      * @return void
      */
     public function init() {
-        $router = new Router('http://localhost:8888/dynweb/cms/');
+        $router = new Router('/');
 
         $this->di->set($this->serviceName, $router);
     }

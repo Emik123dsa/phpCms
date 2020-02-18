@@ -24,7 +24,7 @@ class AdminController extends Controller {
         //$this->checkAuthorization();
 
         if ($this->auth->hashUser() == null) {
-            header('Location: /dynweb/cms/admin/login/');
+            header('Location: /admin/login/');
             exit;
         }
 
@@ -39,7 +39,7 @@ class AdminController extends Controller {
 
     public function logout() {
         $this->auth->unAuthorize();
-        header('Location: /dynweb/cms/admin/login/');
+        header('Location: /admin/login/');
         exit;
     }
 

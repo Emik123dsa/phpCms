@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/dynweb/cms/admin/Assets/css/style.css" rel="stylesheet" type="text/css">
-        <link href="/dynweb/cms/admin/Assets/node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css">
-        <link href="/dynweb/cms/admin/Assets/semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
-        <link href="/dynweb/cms/admin/Assets/node_modules/trumbowyg/dist/ui/trumbowyg.min.css" rel="stylesheet" type="text/css">
+        <link href="/admin/Assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/admin/Assets/node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="/admin/Assets/semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+        <link href="/admin/Assets/node_modules/trumbowyg/dist/ui/trumbowyg.min.css" rel="stylesheet" type="text/css">
     </head>
         <body>
           <div id="preloader-page-login">
@@ -17,7 +17,7 @@
                     <div id = "loader" class="ui active dimmer">
                         <div class="ui massive loader"> </div>
                         <!-- /.ui loader -->
-                        <img class="ui mini image" src="/dynweb/cms/admin/Assets/img/logotype.png" alt="dental">
+                        <img class="ui mini image" src="/admin/Assets/img/logotype.png" alt="dental">
                     </div>  
                 </div>
               <!-- /.preloader-page -->
@@ -50,9 +50,9 @@
                     <!-- /.ui header -->
                       <div class="ui top attached tabular menu "> 
                      
-                              <a class="active item" href="/dynweb/cms/admin/login/"> Sign In</a>
+                              <a class="active item" href="/admin/login/"> Sign In</a>
                               <!-- /.ui header -->
-                          <a class="item" href="/dynweb/cms/admin/signup/"> Sign Up</a>
+                          <a class="item" href="/admin/signup/"> Sign Up</a>
                 
                           <!-- /.item -->
                           <!-- /.active item -->
@@ -132,13 +132,13 @@
 
         </footer>
         <!-- /.footer -->
-            <script type="text/javascript" src="/dynweb/cms/admin/Assets/node_modules/jquery/dist/jquery.min.js"></script>
-            <script type="text/javascript" src="/dynweb/cms/admin/Assets/semantic/dist/semantic.min.js"></script>
-            <script type="text/javascript" src = "/dynweb/cms/admin/Assets/js/particles.min.js"></script>
-            <script type="text/javascript" src = "/dynweb/cms/admin/Assets/js/app.js"></script>
-            <script type="text/javascript" src = "/dynweb/cms/admin/Assets/js/lib/stats.js"></script>
-            <script type="text/javascript" src="/dynweb/cms/admin/Assets/js/login.js"></script>
-            <script type="text/javascript" src="/dynweb/cms/admin/Assets/node_modules/trumbowyg/dist/trumbowyg.min.js" > </script>
+            <script type="text/javascript" src="/admin/Assets/node_modules/jquery/dist/jquery.min.js"></script>
+            <script type="text/javascript" src="/admin/Assets/semantic/dist/semantic.min.js"></script>
+            <script type="text/javascript" src = "/admin/Assets/js/particles.min.js"></script>
+            <script type="text/javascript" src = "/admin/Assets/js/app.js"></script>
+            <script type="text/javascript" src = "/admin/Assets/js/lib/stats.js"></script>
+            <script type="text/javascript" src="/admin/Assets/js/login.js"></script>
+            <script type="text/javascript" src="/admin/Assets/node_modules/trumbowyg/dist/trumbowyg.min.js" > </script>
         <script type="text/javascript">
         $('.ui.form').form( {
             inline : true,

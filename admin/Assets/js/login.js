@@ -37,7 +37,7 @@ var sign = {
             formData.append('password', password); 
 
             $.ajax({
-                url: '/dynweb/cms/admin/auth/', 
+                url: '/admin/auth/', 
                 type: 'POST', 
                 data: formData, 
                 processData: false, 
@@ -72,7 +72,7 @@ var sign = {
                         errorMessage.innerHTML = "<ul class='ui list'> <div class='item'> <div class='content'> <div class = 'header'> <i class='check icon'> </i> <span> Success </span></div> <div class = 'description'></div></div> </div> </ul>";
                         errorMessage.classList.remove('hidden', 'error');
                         errorMessage.classList.add('success');
-                        location.replace('/dynweb/cms/admin/');
+                        location.replace('/admin/');
                         }
                 }, 
                 error: function(jqXHR, textStatus, errorThrown) {

@@ -12,7 +12,7 @@
         </div>
   </div>
   <div class="image">
-    <img src="/dynweb/cms/admin/Assets/img/image.png" alt="img">
+    <img src="/admin/Assets/img/image.png" alt="img">
     
     <!-- /.meta -->
   </div>

@@ -8,8 +8,8 @@
                             <div class="left menu ">
                             <!-- /.menu left -->
                             <!-- /.item -->
-                            <a href="/dynweb/cms/admin/posts/" class="item"> Posts</a> <!-- /.post_list_content_title_link -->                     
-                                <a href="/dynweb/cms/admin/posts/create/" class="item active"> New posts</a> <!-- /.post_list_content_title_link -->
+                            <a href="/admin/posts/" class="item"> Posts</a> <!-- /.post_list_content_title_link -->                     
+                                <a href="/admin/posts/create/" class="item active"> New posts</a> <!-- /.post_list_content_title_link -->
 </div>
                                 <div class="right menu "> 
     <div class="item active">
@@ -72,9 +72,9 @@
             <!-- /.post_list -->
         </main>
         <!-- /.main -->
-       <!-- <script type="text/javascript" src="/dynweb/cms/admin/Assets/js/post/postCreate.js"></script>--> 
+       <!-- <script type="text/javascript" src="/admin/Assets/js/post/postCreate.js"></script>--> 
 <?php $this->theme->footer();?> 
-<script type="text/javascript" src="/dynweb/cms/admin/Assets/js/post/post.js"> </script>
+<script type="text/javascript" src="/admin/Assets/js/post/post.js"> </script>
 <script type="text/javascript">
 $('#formContent').trumbowyg();
 

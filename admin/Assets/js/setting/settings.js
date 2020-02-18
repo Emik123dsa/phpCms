@@ -19,7 +19,7 @@ var settings = {
             e.preventDefault();
             
             $.ajax({
-                url: '/dynweb/cms/admin/settings/general/update/', 
+                url: '/admin/settings/general/update/', 
                 type: 'POST', 
                 data: formData, 
                 processData: false, 
@@ -65,7 +65,7 @@ var settings = {
             e.preventDefault();
             
             $.ajax({
-                url: '/dynweb/cms/admin/settings/general/ajaxMenuAdd/', 
+                url: '/admin/settings/general/ajaxMenuAdd/', 
                 type: 'POST', 
                 data: formData, 
                 processData: false, 
@@ -103,7 +103,7 @@ var settings = {
        
             
             $.ajax({
-                url: '/dynweb/cms/admin/settings/general/ajaxMenuAdditem/', 
+                url: '/admin/settings/general/ajaxMenuAdditem/', 
                 type: 'POST', 
                 data: formData,
                 processData: false, 
@@ -154,7 +154,7 @@ var settings = {
         
 
             $.ajax({
-                url: '/dynweb/cms/admin/settings/ajaxMenuDeleteItem/', 
+                url: '/admin/settings/ajaxMenuDeleteItem/', 
                 type: 'POST', 
                 data: formData,
                 processData: false, 
@@ -181,7 +181,7 @@ var settings = {
         formData.append('name', changeButton);
 
         $.ajax({
-            url: '/dynweb/cms/admin/settings/ajaxMenuChangeItemName/', 
+            url: '/admin/settings/ajaxMenuChangeItemName/', 
             type: 'POST', 
             data: formData,
             contentType: false, 
@@ -201,7 +201,7 @@ var settings = {
         formData.append('id', id); 
         formData.append('link', changeLink);
         $.ajax({
-            url: '/dynweb/cms/admin/settings/ajaxMenuChangeItemLink/', 
+            url: '/admin/settings/ajaxMenuChangeItemLink/', 
             type: 'POST', 
             data: formData,
             contentType: false, 
@@ -224,7 +224,7 @@ var settings = {
          
 
         $.ajax({ 
-            url: '/dynweb/cms/admin/settings/ajaxMenuChange/', 
+            url: '/admin/settings/ajaxMenuChange/', 
             type: 'POST', 
             data: formData, 
             contentType: false, 
@@ -249,7 +249,7 @@ var settings = {
         var _this = this; 
 
         $.ajax({ 
-            url: '/dynweb/cms/admin/settings/ajaxMenuDelete/', 
+            url: '/admin/settings/ajaxMenuDelete/', 
             type: 'POST', 
             data: formData, 
             contentType: false, 
@@ -273,7 +273,7 @@ var settings = {
         formData.append('value', theme); 
 
         $.ajax({
-            url: '/dynweb/cms/admin/settings/activateThemeMenu', 
+            url: '/admin/settings/activateThemeMenu', 
             type: 'POST', 
             data: formData,
             contentType: false, 

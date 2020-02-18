@@ -1,5 +1,5 @@
 <div class="left menu"> 
-    <a href="/dynweb/cms/admin/settings/themes/" class="item active">
+    <a href="/admin/settings/themes/" class="item active">
             Themes
 </a> <!-- /.item active -->
 </div>

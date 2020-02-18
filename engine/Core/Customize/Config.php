@@ -12,39 +12,39 @@ class Config {
         "dashboardMenu" => [ 
         "home" => [
             "classIcon" => "ui home icon", 
-            "urlPath"   => "/dynweb/cms/admin/", 
+            "urlPath"   => "/admin/", 
             "title"     => "Home"
         ], 
         "pages" => [
             "classIcon" => "ui list icon", 
-            "urlPath"   => "/dynweb/cms/admin/pages/page/1", 
+            "urlPath"   => "/admin/pages/page/1/", 
             "title"     => "Pages"
         ], 
         "posts" => [
             "classIcon" => "ui folder icon", 
-            "urlPath"   => "/dynweb/cms/admin/posts/post/1", 
+            "urlPath"   => "/admin/posts/post/1/", 
             "title"     => "Posts"
         ], 
         "plugins" => [
             "classIcon" => "ui wrench icon", 
-            "urlPath"   => "/dynweb/cms/admin/plugins/", 
+            "urlPath"   => "/admin/plugins/", 
             "title"     => "Plugins"
         ], 
         "settings" => [
             "classIcon" => "setting icon", 
-            "urlPath"   => "/dynweb/cms/admin/settings/general/",
+            "urlPath"   => "/admin/settings/general/",
             "title"     => "Settings", 
         ], 
     ], 
         "settingMenu" => [
             "themes"  => [
                 "classIcon" => "fly icon", 
-                "urlPath"   => "/dynweb/cms/admin/settings/themes/",
+                "urlPath"   => "/admin/settings/themes/",
                 "title"     => "Theme", 
             ], 
             "menu"    => [
                 "classIcon" => "fly icon",
-                "urlPath"   => "/dynweb/cms/admin/settings/appearance/menus/",
+                "urlPath"   => "/admin/settings/appearance/menus/",
                 "title"     => "Menu", 
             ]
         ]

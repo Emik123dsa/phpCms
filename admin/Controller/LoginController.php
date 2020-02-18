@@ -22,7 +22,7 @@ class LoginController extends Controller {
         $this->auth = new Auth();
 
         if ($this->auth->hashUser() !== null) {
-            header('Location: /dynweb/cms/admin/');
+            header('Location: /admin/');
             exit;
         }
         

@@ -10,8 +10,8 @@
                             <div class="left menu ">
                             <!-- /.menu left -->
                             <!-- /.item -->
-                            <a href="/dynweb/cms/admin/posts/" class="item active"> Posts</a> <!-- /.post_list_content_title_link -->                     
-                                <a href="/dynweb/cms/admin/posts/create/" class="item"> New posts</a> <!-- /.post_list_content_title_link -->
+                            <a href="/admin/posts/" class="item active"> Posts</a> <!-- /.post_list_content_title_link -->                     
+                                <a href="/admin/posts/create/" class="item"> New posts</a> <!-- /.post_list_content_title_link -->
 </div>
                                 <div class="right menu "> 
     <div class="item active">
@@ -71,7 +71,7 @@
                                   </a> <!-- /.post_list_wrap_title_link -->
                                   </div>
                                   <div class="content"> 
-                                      <a href="/dynweb/cms/admin/posts/edit/<?= $post['id']?>" class="ui green button"><i class="edit icon"></i> <!-- /.edit icon --> Edit It</a> <!-- /.ui green button -->
+                                      <a href="/admin/posts/edit/<?= $post['id']?>" class="ui green button"><i class="edit icon"></i> <!-- /.edit icon --> Edit It</a> <!-- /.ui green button -->
                                       <a href="javascript:void(0)" class="ui red button"><i class="cancel icon"></i> <!-- /.cancel icon --> Delete It</a> <!-- /.ui green button -->
                                   </div>
                                   <!-- /.content -->

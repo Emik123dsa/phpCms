@@ -2,6 +2,7 @@
 namespace Engine\Helper;
 
 class Common {
+    
     /**
      * Undocumented function
      *
@@ -55,25 +56,30 @@ class Common {
 
     static function getBreadCrumbFeatures() {
         $pathUrl = $_SERVER['REQUEST_URI']; 
-         
+        $pathUrlConst = $_SERVER['REQUEST_URI'];
         if($position = strpos($pathUrl, '?')) {
             $pathUrl = substr($pathUrl, '0', $position);
         }
 
         $pathUrl = explode('/', $pathUrl);
-       
-        for($iterator = 0; $iterator <= 3; ++$iterator) {
-
-            unset($pathUrl[$iterator]);
-        } 
-
-        if (stripos($pathUrl, 'admin') ) {
         
-        return $pathUrl;
-        } 
-        else {
-            return "Home";
+        $pathUrl = array_diff($pathUrl, array(''));
+        unset($pathUrl[0]);
+        unset($pathUrl[1]);
+        $pathUrl = array_values($pathUrl);
+        
+        foreach($pathUrl as $item => $key) {
+            $pathUrl[$item] = ucfirst($key);
         }
+        if ($pathUrl == null) {
+            $pathUrl[] = "Home";
+        }
+
+        return $pathUrl;
+    }
+
+    static function getBreadCrumbAmount($pathUrl = []) {
+        return count($pathUrl) - 1;
     }
 }
 

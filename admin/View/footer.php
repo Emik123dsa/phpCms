@@ -49,11 +49,11 @@
                                         
                                         
                                         <div class="menu"> 
-                                            <a href="/dynweb/cms/admin/settings/general/" class="item "> <i class="fly icon"></i> General</a>
+                                            <a href="/admin/settings/general/" class="item "> <i class="fly icon"></i> General</a>
                                             <!-- /.item -->
                                             <a href="javascript:void(0)" class="item"> <i class="fly icon"></i> Appereance</a>
                                             <!-- /.item -->
-                                            <a href="/dynweb/cms/admin/settings/appearance/menus/" class="item"> <i class="fly icon"></i> Menu</a>
+                                            <a href="/admin/settings/appearance/menus/" class="item"> <i class="fly icon"></i> Menu</a>
                                             <!-- /.item -->
                                         </div>
                                     <!-- /.item -->
@@ -101,14 +101,14 @@
            <!-- /.footer -->
 
             
-            <script type="text/javascript" src="/dynweb/cms/admin/Assets/node_modules/jquery/dist/jquery.min.js"></script>
-            <script type="text/javascript" src="/dynweb/cms/admin/Assets/js/sortable.min.js"></script>
-            <script type="text/javascript" src="/dynweb/cms/admin/Assets/semantic/dist/semantic.min.js"></script>
-            <script type="text/javascript" src = "/dynweb/cms/admin/Assets/js/particles.min.js"></script>
-            <script type="text/javascript" src = "/dynweb/cms/admin/Assets/js/app.js"></script>
+            <script type="text/javascript" src="/admin/Assets/node_modules/jquery/dist/jquery.min.js"></script>
+            <script type="text/javascript" src="/admin/Assets/js/sortable.min.js"></script>
+            <script type="text/javascript" src="/admin/Assets/semantic/dist/semantic.min.js"></script>
+            <script type="text/javascript" src = "/admin/Assets/js/particles.min.js"></script>
+            <script type="text/javascript" src = "/admin/Assets/js/app.js"></script>
             
-            <script type="text/javascript" src = "/dynweb/cms/admin/Assets/js/lib/stats.js"></script>
-            <script type="text/javascript" src="/dynweb/cms/admin/Assets/js/main.js"></script>
-            <script type="text/javascript" src="/dynweb/cms/admin/Assets/node_modules/trumbowyg/dist/trumbowyg.min.js" > </script>
+            <script type="text/javascript" src = "/admin/Assets/js/lib/stats.js"></script>
+            <script type="text/javascript" src="/admin/Assets/js/main.js"></script>
+            <script type="text/javascript" src="/admin/Assets/node_modules/trumbowyg/dist/trumbowyg.min.js" > </script>
         </body>
 </html>

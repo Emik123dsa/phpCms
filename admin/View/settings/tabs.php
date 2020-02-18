@@ -1,7 +1,7 @@
 
   <div class="left menu">
   <!-- /.left menu -->
-        <a class="item active" href="/dynweb/cms/admin/settings/general/">
+        <a class="item active" href="/admin/settings/general/">
             General
         </a>
 

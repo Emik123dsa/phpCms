@@ -73,7 +73,7 @@
         <!-- /.main -->
         <!--  -->
 <?php $this->theme->footer()?>
-<script type="text/javascript" src="/dynweb/cms/admin/Assets/js/setting/settings.js"></script>
+<script type="text/javascript" src="/admin/Assets/js/setting/settings.js"></script>
 <script> 
 $('.ui.pointing.dropdown.link.item').dropdown(); 
 

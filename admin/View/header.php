@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/dynweb/cms/admin/Assets/css/style.css" rel="stylesheet" type="text/css">
-        <link href="/dynweb/cms/admin/Assets/node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css">
-        <link href="/dynweb/cms/admin/Assets/semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
-        <link href="/dynweb/cms/admin/Assets/node_modules/trumbowyg/dist/ui/trumbowyg.min.css" rel="stylesheet" type="text/css">
+        <link href="/admin/Assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/admin/Assets/node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="/admin/Assets/semantic/dist/semantic.min.css" rel="stylesheet" type="text/css">
+        <link href="/admin/Assets/node_modules/trumbowyg/dist/ui/trumbowyg.min.css" rel="stylesheet" type="text/css">
     </head>
         <body>
           <div id="preloader-page">
@@ -17,7 +17,7 @@
                     <div id = "loader" class="ui active dimmer">
                         <div class="ui massive loader"> </div>
                         <!-- /.ui loader -->
-                        <img class="ui mini image" src="/dynweb/cms/admin/Assets/img/logotype.png" alt="dental">
+                        <img class="ui mini image" src="/admin/Assets/img/logotype.png" alt="dental">
                     </div>  
                 </div>
               <!-- /.preloader-page -->
@@ -41,7 +41,7 @@
                         <div class="left menu">
                                 <!-- /.left menu -->
                                 <div class="item ">
-                                                <img class="ui mini image" src="/dynweb/cms/admin/Assets/img/logotype.png" alt="dental">
+                                                <img class="ui mini image" src="/admin/Assets/img/logotype.png" alt="dental">
                                 </div>
                                 <div class="item">
                                                 <div class="content">
@@ -76,7 +76,7 @@ foreach(Customize::getInstance()->getAdminMenuItem() as $key => $item):
                                 <div class="right menu">
                                     <div class="item">
                                        
-                                        <a href="/dynweb/cms/admin/logout/" class="ui negative button">
+                                        <a href="/admin/logout/" class="ui negative button">
                                             <i class="sign-out mail icon"></i> <!-- /.mail icon -->
                                         Log Out
                                     </a> <!-- /.ui label -->
@@ -95,12 +95,15 @@ foreach(Customize::getInstance()->getAdminMenuItem() as $key => $item):
                      <!-- /.ui container -->
                             <div class="ui attached segment breadcrumb">
 
-                           <?php echo "<pre>"; var_dump( Common::getBreadCrumbFeatures())?>
-                                <a href="javascript:void(0)" class="section item"> 
-                        
+                           <?php $bread = Common::getBreadCrumbFeatures(); foreach($bread as $item => $value) :?>
+                                <div class="section item"> 
+                            <?= ucfirst($value) ?>
                           
                                 </a> 
-                        
+                               <?php if ($item != Common::getBreadCrumbAmount($bread)): ?>
+                                <i class="right angle icon divider"></i> 
+                               <?php endif; ?>
+                           <?php endforeach;?>
                      
                               
                               </div>

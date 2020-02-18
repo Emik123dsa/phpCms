@@ -7,16 +7,16 @@ $this->router->add('logout', '/admin/logout/', 'AdminController:logout');
 //GET_PAGES
 $this->router->add('pages', '/admin/pages/', 'PageController:listing');
 $this->router->add('page-create', '/admin/pages/create/', 'PageController:create');
-$this->router->add('page-edit', '/admin/pages/edit/(id:int)', 'PageController:edit');
-$this->router->add('pages-page-numertaion', '/admin/pages/page/(id:int)', 'PageController:page');
+$this->router->add('page-edit', '/admin/pages/edit/(id:int)/', 'PageController:edit');
+$this->router->add('pages-page-numertaion', '/admin/pages/page/(id:int)/', 'PageController:page');
 //POST_PAGES
 $this->router->add('page-add', '/admin/page/add/', 'PageController:add', 'POST');
 $this->router->add('page-update', '/admin/pages/update/', 'PageController:update', 'POST');
 //GET_POSTS 
 $this->router->add('posts', '/admin/posts/', 'PostController:listing');
 $this->router->add('post-create', '/admin/posts/create/', 'PostController:create'); 
-$this->router->add('post-edit', '/admin/posts/edit/(id:int)', 'PostController:edit');
-$this->router->add('posts-page-numeration', '/admin/posts/post/(id:int)', 'PostController:post'); 
+$this->router->add('post-edit', '/admin/posts/edit/(id:int)/', 'PostController:edit');
+$this->router->add('posts-page-numeration', '/admin/posts/post/(id:int)/', 'PostController:post'); 
 //POST_POSTS
 $this->router->add('post-add', '/admin/post/add/', 'PostController:add', 'POST');
 $this->router->add('post-update', '/admin/posts/update/', 'PostController:update', 'POST');

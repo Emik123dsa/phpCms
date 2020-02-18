@@ -11,7 +11,7 @@ var page = {
             formData.append('content', formContent);
             
             $.ajax( { 
-                url: '/dynweb/cms/admin/page/add/', 
+                url: '/admin/page/add/', 
                 type: 'POST', 
                 data: formData,
                 processData: false, 
@@ -35,7 +35,7 @@ var page = {
                     $('#formTitle').removeAttr('disabled', 'disabled');
                     $('#formContent').removeAttr('disabled', 'disabled');
                     formPage.removeClass('loading');
-                       location.replace('/dynweb/cms/admin/pages/');
+                       location.replace('/admin/pages/');
                 },
                 error: function() {
 
@@ -61,7 +61,7 @@ var page = {
             formData.append('content', formContent); 
     
             $.ajax({
-                url: '/dynweb/cms/admin/pages/update/',
+                url: '/admin/pages/update/',
                 type: 'POST', 
                 data: formData,
                 processData: false, 
@@ -84,7 +84,7 @@ var page = {
                     $('#formTitle').removeAttr('disabled', 'disabled');
                     $('#formContent').removeAttr('disabled', 'disabled');
                     formPage.removeClass('loading');
-                    location.replace('/dynweb/cms/admin/pages/');
+                    location.replace('/admin/pages/');
                 },
                 error: function() {
     

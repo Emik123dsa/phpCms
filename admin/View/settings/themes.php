@@ -8,7 +8,7 @@ $this->theme->header(); ?>
         <div class="ui attached segment">
             
         <h3 class="ui horizontal header divider"> <i class="theme blue icon"></i> </h3>
-        <a href="/dynweb/cms/admin/settings/appearance/menus/" class="ui tag label"> Back</a> <!-- /.ui tag label -->
+        <a href="/admin/settings/appearance/menus/" class="ui tag label"> Back</a> <!-- /.ui tag label -->
         <div class="ui top attached menu">
         <!-- /.ui top attached tabular menu -->
 
@@ -88,4 +88,4 @@ $this->theme->header(); ?>
 
 
 <?php $this->theme->footer();?>
-<script type="text/javascript" src="/dynweb/cms/admin/Assets/js/setting/settings.js"></script>
+<script type="text/javascript" src="/admin/Assets/js/setting/settings.js"></script>

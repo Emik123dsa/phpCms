@@ -6,7 +6,7 @@
                     <!-- /.ui tag label -->
                     <div class="ui attached segment">
                     <h3 class="ui horizontal header divider"> <i class="edit blue icon"></i> </h3>
-                    <a class="ui tag label" href="/dynweb/cms/admin/posts/"> Back</a>
+                    <a class="ui tag label" href="/admin/posts/"> Back</a>
                         <h3 class="ui horizontal divider header">
                            <i class="tag icon"></i> <!-- /.tag icon -->
                             <?= $post['title'] ?>
@@ -58,7 +58,7 @@
                                 <div class="ui buttons">
                         <button id="postPageEdit" class="ui positive button" onclick="post.edit()">Save</button>
                             <div class="or"></div> 
-                    <a href="/dynweb/cms/admin/posts/" class="ui negative button active">Cancel</a>
+                    <a href="/admin/posts/" class="ui negative button active">Cancel</a>
                         </div>
                             </form>
                            
@@ -75,9 +75,9 @@
         
         <!-- /.follow button -->
         <!-- /.main -->
-        <!-- <script type="text/javascript" src="/dynweb/cms/admin/Assets/js/post/postEdit.js"></script> -->
+        <!-- <script type="text/javascript" src="/admin/Assets/js/post/postEdit.js"></script> -->
 <?php $this->theme->footer();?> 
-<script type="text/javascript" src="/dynweb/cms/admin/Assets/js/post/post.js"> </script>
+<script type="text/javascript" src="/admin/Assets/js/post/post.js"> </script>
 <script type="text/javascript"> 
 $('#formContent').trumbowyg();
 

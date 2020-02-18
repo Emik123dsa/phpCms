@@ -46,7 +46,7 @@ class PageController extends AdminController {
         }
 
         if ($id <= 0  or $id > ceil($sigma / self::DATA_AMOUNT_PAGE)) {
-            header('Location: /dynweb/cms/admin/pages/page/1', true, 301);
+            header('Location: /admin/pages/page/1/', true, 301);
             exit;
         }
 

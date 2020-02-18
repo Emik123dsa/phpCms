@@ -9,7 +9,7 @@
 
         <h3 class="ui horizontal header divider"> <i class="book blue icon"></i> </h3>
         <?php if ($menuId !== null): ?>
-                <a href="/dynweb/cms/admin/settings/appearance/menus/" class="ui tag label"> Back</a> <!-- /.ui tag label -->
+                <a href="/admin/settings/appearance/menus/" class="ui tag label"> Back</a> <!-- /.ui tag label -->
         <?php endif;?>
                 <div class="ui top attached   menu">
                   
@@ -201,9 +201,9 @@
     
 
 <?php $this->theme->footer(); ?>
-<script type="text/javascript" src="/dynweb/cms/admin/Assets/js/setting/settings.js"></script>
+<script type="text/javascript" src="/admin/Assets/js/setting/settings.js"></script>
 
-<script type="text/javascript" src="/dynweb/cms/admin/Assets/js/init.js"></script>
+<script type="text/javascript" src="/admin/Assets/js/init.js"></script>
                  
 <script type="text/javascript"> 
 

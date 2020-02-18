@@ -12,7 +12,7 @@ var post = {
         formData.append('content', formContent); 
 
         $.ajax({
-            url: '/dynweb/cms/admin/post/add/',
+            url: '/admin/post/add/',
             type: 'POST', 
             data: formData, 
             processData: false, 
@@ -35,7 +35,7 @@ var post = {
                 $('#formTitle').removeAttr('disabled', 'disabled');
                 $('#formContent').removeAttr('disabled', 'disabled');
                 formPost.removeClass('loading');
-                location.replace('/dynweb/cms/admin/posts/');
+                location.replace('/admin/posts/');
             },
             error: function() {
 
@@ -62,7 +62,7 @@ var post = {
         formData.append('content', formContent); 
         
         $.ajax({
-            url: '/dynweb/cms/admin/posts/update/',
+            url: '/admin/posts/update/',
             type: 'POST', 
             data: formData, 
             processData: false, 
@@ -85,7 +85,7 @@ var post = {
                 $('#formTitle').removeAttr('disabled', 'disabled');
                 $('#formContent').removeAttr('disabled', 'disabled');
                 formPost.removeClass('loading');
-                location.replace('/dynweb/cms/admin/posts/');
+                location.replace('/admin/posts/');
             },
             error: function() {
 

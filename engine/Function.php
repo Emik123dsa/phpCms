@@ -92,7 +92,7 @@ function getThemes() {
 }
 function path_content($section = '') {
     
-    $pathMark = $_SERVER['DOCUMENT_ROOT'] . '/dynweb/cms'. DS . 'content' . DS .'%s';
+    $pathMark = $_SERVER['DOCUMENT_ROOT'] . DS . 'content' . DS .'%s';
     
     switch(strtolower($section)) {
         case 'themes': 

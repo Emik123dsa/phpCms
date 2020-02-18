@@ -28,7 +28,7 @@ $(function() {
        formData.append('menu_id', menuId); 
        
        $.ajax({
-           url: '/dynweb/cms/admin/settings/ajaxMenuSortItem/', 
+           url: '/admin/settings/ajaxMenuSortItem/', 
            type: 'POST', 
            data: formData,
            processData: false,
