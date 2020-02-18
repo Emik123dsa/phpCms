@@ -1,0 +1,23 @@
+menu 
+id name
+//
+
+menu_item 
+id name parent position link menu_id
+
+//
+
+page 
+id title content date status 
+
+post 
+id title content date status 
+
+plugin 
+id directory is_active 
+
+setting 
+id name key_field value section 
+
+user 
+id email password hash
